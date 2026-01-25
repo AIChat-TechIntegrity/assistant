@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot - TechIntegrity</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+            overflow: hidden;
+            font-family: sans-serif;
+        }
+
+        .back-button {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            z-index: 1000;
+            background-color: #292929;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+            transition: background 0.3s ease;
+        }
+
+        .back-button:hover {
+            background-color: #404040;
+        }
+
+        .chat-wrapper {
+            width: 100%;
+            height: 100vh;
+        }
+
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+
+    <a href="http://info1.techintegrity.hu/" class="back-button">← Vissza</a>
+
+    <div class="chat-wrapper">
+        <iframe
+            src="https://www.chatbase.co/chatbot-iframe/FoDHPpTfa82aYR65Mze05"
+            frameborder="0"
+        ></iframe>
+    </div>
+</body>
+</html>
